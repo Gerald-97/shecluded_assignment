@@ -43,7 +43,6 @@
 }
 .body-top{
     display: flex;
-    /* max-height: 40vh; */
     align-items: center;
     padding-top: 3em;
     justify-content: space-around;
@@ -78,3 +77,24 @@
 .footer__item__title{
     color:  #b10f93;
 }
+@media(max-width: 768px){
+    .header-bar__item--list{
+        display: none;
+    }
+    .body-top__entry{
+        text-align: center;
+    }
+    .body-top__entry--image{
+        display: none;
+    }
+    .footer{
+        margin: 0;
+    }
+    .footer__item__gallery{
+        display: block;
+    }
+    .footer__item__gallery img{
+        height: auto;
+        max-width: 100%;
+    }
+}   
