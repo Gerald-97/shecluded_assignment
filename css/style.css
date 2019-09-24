@@ -27,8 +27,8 @@
     height: 4.5em;
 }
 .page__indicator hr {
-    margin-top: 0.1em; 
-    border: 2px solid #b10f93;
+    margin-top: 0.6em; 
+    border: 1px solid #b10f93;
 }
 .apply__button{
     padding: 10px 25px;
